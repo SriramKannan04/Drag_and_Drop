@@ -1,0 +1,54 @@
+.navbar
+{
+    width: 100%;
+    height: 80px;
+
+    background-color: rgb(6, 6, 6);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectTitle
+{
+    font-family: 'Nabla', cursive;
+    font-size: 30px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    
+    margin-left: 100px;
+
+    text-decoration: none;
+}
+
+
+ul 
+{
+    display: flex;
+    margin-right: 100px;
+}
+li
+{
+    list-style: none;
+    padding: 0px 30px;
+}
+
+
+.navCon
+{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Metal Mania', cursive;
+    transition:  0.5s ease-in-out;
+}
+.navCon:hover
+{
+    color: orange;
+}
+
+
+.model
+{
+    font-family: 'Agbalumo', sans-serif;
+}

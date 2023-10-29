@@ -1,0 +1,165 @@
+.project1
+{
+    margin: 100px 20px 150px 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: snow;
+}
+
+/* game board for tic tac toe */
+.board
+{
+   position: relative;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+
+   margin: 0px 50px;
+}
+
+.board .dropbox
+{
+    position: relative;
+
+    width: 100px;
+    height: 100px;
+
+    border-right: 4px solid gold;
+    border-bottom: 4px solid gold;
+
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.board .dropbox:nth-child(3),
+.board .dropbox:nth-child(6),
+.board .dropbox:nth-child(9)
+{
+   border-right: none;
+}
+.board .dropbox:nth-child(7),
+.board .dropbox:nth-child(8),
+.board .dropbox:nth-child(9)
+{
+   border-bottom: none;
+}
+
+
+
+.drag 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    flex-direction: column;
+
+    height: 420px;
+    width: 100px;
+    margin: 0 40px;
+
+    cursor: grab;
+}
+
+.drag .dragbox 
+{
+    padding: 15px;
+    
+}
+
+/* Defining CROSS Symbols */
+
+.drag .dragbox .wrong 
+{
+    position: relative;
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cross1,  #cross2,  #cross3,  #cross4,  #cross5
+{
+    margin: 40px 0px;
+
+    width: 40px;
+    height: 40px;
+}
+
+.wrong:hover
+{
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px snow;
+}
+
+
+/* Defining CIRCLE Symbols */
+
+.drag .dragbox .tick 
+{
+    position: relative;
+    width: 40px;
+    height: 40px;;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#circle1,  #circle2,  #circle3,  #circle4,  #circle5
+{
+    margin: 40px 0px;
+
+    width: 40px;
+    height: 40px;
+}
+
+.tick:hover
+{
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px snow;
+}
+
+
+
+
+/* reset button */
+
+.reset
+{
+    font-family: 'Metal Mania', cursive;
+    border-radius: 15%;
+    font-size: 20px;
+
+    position: absolute;
+
+    margin-top: 610px;
+    
+    letter-spacing: 5px;
+    word-spacing: 8px;
+}
+
+/* design 1 title*/
+
+.projectname1
+{
+    position: absolute;
+    margin-bottom: 500px;
+
+    font-size: 45px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-family: 'Agbalumo', sans-serif;
+
+    text-shadow: 3px 3px 5px #071952;
+}
+

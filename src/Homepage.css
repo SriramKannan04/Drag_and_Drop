@@ -1,0 +1,130 @@
+.home
+{
+    margin: 20px 20px 20px 20px;
+
+    /* border: 2px solid snow; */
+
+    color: snow;
+}
+
+.dragdrop
+{
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-family: 'Agbalumo', sans-serif;
+
+    text-shadow: 3px 3px 5px #071952;
+}
+
+.oneline
+{
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 100px;
+}
+
+.cards
+{
+    width: 200px;
+    height: 180px;
+
+    background-color: snow;
+    box-shadow: 10px 10px 10px black;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+    color: black;
+
+    transition: width 0.9s linear;
+}
+.cards:hover
+{
+   width: 500px;
+   border-radius: 20px;
+}
+#cd4
+{
+    margin-left: 200px;
+}
+#cd5
+{
+    margin-right: 200px;
+}
+
+
+
+.mode
+{
+    width: 180px;
+    margin: 0px 10px;
+    margin-top: -80px;
+
+    transition: 0.9s ease-in-out;
+}
+.cards:hover .mode
+{
+    margin-top: 30px;
+
+    width: 120px;
+    height: 120px;
+    animation: roll 3s ease;
+
+    cursor: pointer;
+}
+@keyframes roll 
+{
+    0%, 100% {transform: rotate(0deg);}
+    50% {transform: rotate(270deg);}
+}
+
+.go 
+{
+    display: flex;
+}
+
+.show
+{
+    display: none;
+    font-size: 20px;  
+}
+.cards:hover .show
+{
+    display: block;
+    margin-top: 60px;
+    margin-left: 30px;
+
+    font-family: 'Sriracha', cursive;
+    font-weight: bolder;
+}
+
+.btn
+{
+    margin-top: 20px;
+    background-color: black;
+
+    color: snow;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-family: 'Sriracha', cursive;
+
+    border-radius: 50px;
+
+    animation: 2s infinite jump;
+}
+@keyframes jump 
+{
+    0%, 100% {transform: translateY(0px);}
+    50%      {transform: translateY(10px);}
+}
+.cards:hover .btn
+{
+    display: none;
+}
+
+.note
+{
+    text-decoration: none;
+}

@@ -1,0 +1,68 @@
+.project3
+{
+    margin: 20px 20px 150px 20px;
+    /* border: 2px solid whitesmoke; */
+    color: snow;
+}
+
+.projectname3
+{
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-family: 'Agbalumo', sans-serif;
+
+    text-shadow: 3px 3px 5px #071952;
+}
+
+.bigBox
+{
+   /*  border: 2px solid orange; */
+    width: 500px;
+    height: 500px;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-bottom: 30px;
+}
+
+.topBox
+{
+   margin-top: 25px;
+}
+
+.imgBox1
+{
+    border: 2px solid orange;
+    box-shadow: 10px 10px 10px orange;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+
+    margin: 10px 10px 30px 10px;
+
+    transition: 0.5s ease-in-out;
+}
+.imgBox1:hover
+{
+    border-radius: 0px;
+    cursor: pointer;
+
+    box-shadow: 10px 10px 10px black;
+    border: 1px solid black;
+}
+
+.nexevoLogo
+{
+    width: 200px;
+    height: 200px;
+
+    border-radius: 30px;
+
+    transition: 0.5s ease-in-out;
+}
+.nexevoLogo:hover
+{
+    border-radius: 0px;
+    cursor: grabbing;
+}

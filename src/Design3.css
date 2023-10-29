@@ -1,0 +1,149 @@
+.project4
+{
+    margin: 20px 20px 20px 20px;
+    /* border: 2px solid white; */
+
+    color: snow;
+}
+
+.projectname4
+{
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-family: 'Agbalumo', sans-serif;
+
+    text-shadow: 3px 3px 5px #071952;
+}
+
+.container
+{
+    /* border: 2px solid orange; */
+    width: 1400px;
+    height: 500px;
+
+    margin: 20px 20px 20px 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainbox
+{
+    margin: 40px 20px 20px 20px;
+
+    border: 2px solid black;
+    box-shadow: 10px 10px 20px black;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    width: 550px;
+    height: 450px;
+
+    background-color: snow;
+    
+}
+
+.mainrow
+{
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 20px 0px;
+}
+
+.mainlist
+{
+    background-color: black;
+    box-shadow: 3px 3px 5px orange;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+
+    text-align: center;
+
+    transition: 0.3s ease-in-out;
+
+    font-family: 'Sriracha', cursive;
+}
+.mainlist:hover
+{
+    width: 110px;
+    height: 30px;
+
+    font-size: 18px;
+
+    cursor: grabbing;
+}
+.pull
+{
+    width: 13px;
+    height: 13px;
+    
+    margin-top: 3px;
+    margin-left: -13px;
+}
+.pull:hover
+{
+    width: 20px;
+    height: 20px;
+}
+
+.secbox
+{
+    margin: 20px 20px 20px 20px;
+
+    /* border: 2px solid yellow; */
+    width: 750px;
+    height: 450px;
+}
+
+.row1
+{
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: -40px;
+}
+
+.row2
+{
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 10px;
+}
+
+.group
+{
+    margin: 20px 20px 20px 20px;
+
+    /* border: 2px solid red; */
+    width: 200px;
+    height: 200px;
+}
+
+.grouptitle
+{
+    margin-top: 1px;
+    font-family: 'Alkatra', cursive;
+}
+
+.groupitems
+{
+    margin-top: -10px;
+
+    border: 2px solid black;
+    box-shadow: 10px 10px 20px black;
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+
+    background-color: snow;
+    
+}
+
+#mr11
+{
+    margin-top: 20px;
+}
